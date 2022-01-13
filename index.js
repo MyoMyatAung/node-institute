@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.send("HELLO WORLD");
 });
 
+app.get("/hello", (req,res) => {
+  res.send('HELLO WORLD')
+})
+
 app.listen(8500, () => {
   console.log("SERVER IS RUNNING");
 });
